@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Functional/Building</title>
+    <defs>
+        <path d="M20.9303472,5.42643841 C21.0975394,5.19236935 21.4228259,5.13815494 21.6568949,5.30534712 C21.890964,5.4725393 21.9451784,5.79782581 21.7779862,6.03189487 L11.3613195,20.6152283 C11.1941273,20.8492973 10.8688408,20.9035117 10.6347718,20.7363196 L3.34310507,15.5279862 C3.10903601,15.360794 3.0548216,15.0355075 3.22201378,14.8014385 C3.38920596,14.5673694 3.71449247,14.513155 3.94856152,14.6803472 L10.8164087,19.5859523 L20.9303472,5.42643841 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.3-T&amp;C" transform="translate(-373.000000, -444.000000)">
+            <g id="Group-8" transform="translate(370.000000, 427.000000)">
+                <g id="Icons/Functional/Building" transform="translate(0.000000, 12.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Checkmark2" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
