@@ -25,7 +25,7 @@ function TosModal(props) {
         />
         <div
           role="document"
-          focustrap
+          focustrap="true"
           className="modal-dialog"
           bis_skin_checked={1}
         >

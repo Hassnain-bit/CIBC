@@ -25,24 +25,24 @@ function HelpModal(props) {
         />
         <div
           role="document"
-          focustrap
+          focustrap="true"
           className="modal-dialog"
           bis_skin_checked={1}
         >
           <div className="modal-content" bis_skin_checked={1}>
             <div
-              _ngcontent-xlp-c100
+              
               className="modal-header"
               bis_skin_checked={1}
             >
-              <span _ngcontent-xlp-c100 className="modal-icon">
-                <img _ngcontent-xlp-c100 src={helpIcon} alt="Help" />
+              <span  className="modal-icon">
+                <img  src={helpIcon} alt="Help" />
               </span>
-              <h2 _ngcontent-xlp-c100 className="modal-title pull-left">
+              <h2  className="modal-title pull-left">
                 Help
               </h2>
               <button
-                _ngcontent-xlp-c100
+                
                 type="button"
                 aria-label="Close"
                 className="close pull-right close-box"
@@ -50,12 +50,12 @@ function HelpModal(props) {
               />
             </div>
             <div
-              _ngcontent-xlp-c100
+              
               className="modal-body"
               bis_skin_checked={1}
             >
               <div
-                _ngcontent-xlp-c100
+                
                 className="modal-bodyTxt"
                 bis_skin_checked={1}
               >
@@ -114,12 +114,12 @@ function HelpModal(props) {
               </div>
             </div>
             <div
-              _ngcontent-xlp-c100
+              
               className="modal-footer text-center"
               bis_skin_checked={1}
             >
               <button
-                _ngcontent-xlp-c100
+                
                 type="button"
                 aria-label="Ok"
                 className="btn btn-primary"

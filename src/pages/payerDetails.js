@@ -168,11 +168,11 @@ function PayerDetails() {
                               }
                             >
                               <option hidden>Select Payer Relation</option>
-                              <option>Parente</option>
-                              <option>Grand-parent</option>
-                              <option>Autre</option>
-                              <option>Frère/Soeur</option>
-                              <option>Student</option>
+                              <option>Parent</option>
+                              <option>Grandparent</option>
+                              <option>Brother/Sister</option>
+                              <option>Himself</option>
+                              <option>Other</option>
                             </select>
 
                             {/* ERROR */}
@@ -694,7 +694,7 @@ function PayerDetails() {
                 aria-label="Next"
                 onClick={handleNextClick}
               >
-                Next
+                Proceed to payment
               </button>
             </div>
           </div>

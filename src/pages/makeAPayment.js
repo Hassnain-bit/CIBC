@@ -35,6 +35,10 @@ function MakeAPayment() {
   const handleAdmissionChange = (e) => {
     const newAdmission = parseInt(e.target.value, 10);
     setAdmission(newAdmission);
+
+    // Reset admission fee error when input is changed
+    setAdmissionFeeError(false);
+
     setTotalFee(tuition + newAdmission);
   };
 
@@ -67,17 +71,17 @@ function MakeAPayment() {
       setTutionFeeError(false);
     }
 
-    if (!admission) {
+    if (selectAdmissionFee && !admission) {
       setAdmissionFeeError(true);
       hasError = true;
     } else {
       setAdmissionFeeError(false);
     }
 
-    if (!totalFee) {
-      // alert("Total Fee is required");
-      return;
-    }
+    // if (!totalFee) {
+    //   // alert("Total Fee is required");
+    //   return;
+    // }
 
     if (!selected) {
       setCountryError(true);
